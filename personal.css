@@ -1,0 +1,44 @@
+.pContent{
+    background-image:  url('../img/pbg.jpg');
+    background-size: 100%;
+    margin-top: 0%;
+    padding: 10px;
+}
+
+.personal{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 10% 8% 10% 10%;
+  background-size: 100%;
+}
+
+.personal div{
+    width: 200px;
+    height: 300px;
+    border: 0px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.personal .person{
+  margin: 10px;
+
+}
+.personal .pPhoto{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 10% auto 10% auto;
+  background-image:  url('../img/person.png') ;
+  background-size: 100%;
+}
+
+.personal .pText{
+  border-radius: 0px;
+  height: 45%;
+  text-align: left;
+  padding: 10px;
+}
